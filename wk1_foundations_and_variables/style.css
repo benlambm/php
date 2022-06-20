@@ -1,0 +1,129 @@
+/*************************
+BASIC LAYOUT STYLING
+*************************/
+
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 700px;
+	font-family: Monospace, Arial, "sans-serif";
+	font-size: 1.5em;
+	background-color: #F8F5E1;
+}
+
+#all-content {
+	position: relative;
+	left: 100px;
+	top: 80px;
+}
+
+/*************************
+HOMEPAGE STYLING
+*************************/
+.heading, .last-modified {
+	background-color: white;
+}
+
+.subheading {
+	margin-top: -30px;
+}
+
+.heading p {
+	padding: 0;
+	margin: -5px;
+	position: relative;
+	left: 8px;
+}
+
+ul {
+	list-style-type: none;
+}
+.completed, .incomplete {
+	margin: 20px;
+	padding: 10px;
+	border: thin;
+	background-color: whitesmoke;
+	position: relative;
+}
+.completed {
+	border-top: thick solid greenyellow;
+}
+.incomplete {
+	border-top: thick solid red;
+}
+
+.completed:hover, .incomplete:hover {
+	left: 15px;
+}
+
+/*************************
+FOOTER AREA STYLING
+*************************/
+footer {
+	text-align: center;
+}
+.last-modified {
+	background-color: greenyellow;
+	padding: 10px;
+}
+.validator {
+	position: relative;
+}
+.validator:hover {
+	bottom: 5px;
+}
+
+.validator img {
+	max-width: 200px;
+	border-radius: 15px;
+	border: thin solid black;
+	padding-top: 10px;
+	background-color: white;
+}
+
+/*************************
+WK1 FOUNDATIONS AREA STYLING
+*************************/
+nav {
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+/*************************
+WK1 VARIABLES AREA STYLING
+*************************/
+#table-page {
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	background-color: darkolivegreen;
+	color: white;
+}
+td {
+	background-color: white;
+}
+th, td {
+	padding: 10px;
+	border: thin black solid;
+	text-align: center;
+}
+#bio-page {
+	text-align: center;
+}
+.profile {
+	float: left;
+}
+blockquote {
+	text-align: left;
+	position: relative;
+	left: 30px;
+}
