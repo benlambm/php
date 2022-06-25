@@ -160,3 +160,18 @@ WK4 SESSIONS AREA STYLING
 	padding: 30px;
 	text-align: center;
 }
+.return {
+	float: left;
+	margin-right: 450px;
+}
+
+/*************************
+WK6 DATABASE AREA STYLING
+*************************/
+.delete {
+	color: red;
+}
+.update {
+	float: left;
+	margin-right: 120px;
+}

@@ -15,6 +15,6 @@
         <main id="all-content">
         <?php
             if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
-                echo '<p><a href="/wk4_sessions/chart.php">RETURN</a></p>';
+                echo '<p><a class="return" href="/wk4_sessions/chart.php">RETURN</a></p>';
                 echo '<p><a href="/logout.php">LOG OUT</a></p>';
             } ?>
