@@ -20,8 +20,13 @@ body {
 /*************************
 HOMEPAGE STYLING
 *************************/
-.heading, .last-modified {
+.heading {
 	background-color: white;
+	padding-left: 48px;
+	border-color: black;
+	border: 10px;
+	border-style: double none none double;
+
 }
 
 .subheading {
@@ -61,10 +66,14 @@ FOOTER AREA STYLING
 *************************/
 footer {
 	text-align: center;
+	color: darkgreen;
 }
 .last-modified {
 	background-color: greenyellow;
 	padding: 10px;
+	border: 10px;
+	border-color: darkgreen;
+	border-style: double;
 }
 .validator {
 	position: relative;
@@ -76,7 +85,7 @@ footer {
 .validator img {
 	max-width: 200px;
 	border-radius: 15px;
-	border: thin solid black;
+	border: thin solid darkgreen;
 	padding-top: 10px;
 	background-color: white;
 }
@@ -138,4 +147,16 @@ WK2 FORMS AREA STYLING
 
 hr {
 	clear: both;
+}
+/*************************
+WK4 SESSIONS AREA STYLING
+*************************/
+
+.login_box {
+	background-color: white;
+	border: 2px darkgreen solid;
+	border-radius: 15px;
+	margin: 50px;
+	padding: 30px;
+	text-align: center;
 }

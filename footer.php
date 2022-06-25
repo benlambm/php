@@ -12,7 +12,14 @@
         <br>
 
 		<p><a href="/index.php">CSIS410 WEB ENTERPRISE TECHNOLOGIES HOMEPAGE</a></p>
-		<p>&copy; Copyright 2022 by Benjamin Lamb</p>
+        <?php
+            if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
+            echo '<p><a href="/logout.php">LOG OUT</a></p>';
+            }
+            $today = new DateTime('now');
+            ?>
+
+		<p>&copy; Copyright <?php echo $today->format('Y'); ?> by Benjamin Lamb</p>
         <br>
 	</footer>
 </main>
