@@ -3,6 +3,6 @@ This is the source code for my live student CSIS410 course website at http://php
 
 Source code will be packaged by Weekly Module number: e.g. wk1_foundations_and_variables for the first week
 
-Note: Currently the website only loads correctly with images and styles over ‘http’ (and not ‘https’). It should look like this:
+Note: Currently the website only loads correctly with images and styles over ‘http’ (and not ‘https’). It should look something like this:
 
 <img src="https://i.postimg.cc/qMLXHvV7/php-homepage.png" alt="screenshot of homepage">
