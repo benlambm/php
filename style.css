@@ -162,7 +162,7 @@ WK4 SESSIONS AREA STYLING
 }
 .return {
 	float: left;
-	margin-right: 450px;
+	margin-right: 525px;
 }
 
 /*************************
@@ -174,4 +174,69 @@ WK6 DATABASE AREA STYLING
 .update {
 	float: left;
 	margin-right: 120px;
+}
+/*************************
+CAPSTONE CMS STYLING
+*************************/
+
+.social {
+	position: relative;
+}
+.social:hover {
+	bottom: 5px;
+}
+
+.social img {
+	max-width: 400px;
+	border-radius: 15px;
+	border: thin solid darkgreen;
+	padding-top: 10px;
+	background-color: white;
+}
+.product {
+	max-width: 200px;
+}
+.add-to-cart {
+	text-align: right;
+}
+.delete-item {
+	text-align: right;
+}
+#update-quantity {
+	float: left;
+	position: relative;
+	top: -40px;
+}
+.continue {
+	float: left;
+	margin-right: 470px;
+}
+#cart-heading, .centered-heading {
+	text-align: center;
+}
+.welcome {
+	text-decoration: underline;
+	text-align: center;
+}
+.checkout-div, .purchase-div {
+	text-align: center;
+	max-width: 200px;
+	margin: auto;
+}
+.checkout, .purchase {
+	border: darkgreen 3px solid;
+	background-color: white;
+	border-radius: 15px;
+	display: block;
+}
+.checkout:hover, .purchase:hover {
+	background-color: azure;
+}
+
+.checkout a, .purchase a {
+	color: darkgreen !important;
+	text-decoration: none;
+}
+#purchase-page {
+	text-align: right;
 }
