@@ -7,6 +7,7 @@ if(isset($_SESSION['cart'])){
     echo '<p><a href="http://php.ad4mtech.com/capstone_cms/cart.php">CART</a></p>';
 }
 
+
 $about_txt = <<< ENDABOUT
 <em>Park View Ministries</em> is more than a place and a program... <br><br>
 <strong>We are a community of people who seek to follow Jesus in everyday life, wherever we are.</strong><br><br>

@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['logged_in'] = false;
+$_SESSION['user_type'] = null;
 
 require_once('../model/database.php');
 
@@ -18,6 +19,7 @@ try {
 
 if ($_POST['password']=== $pswd) {
     $_SESSION['logged_in'] = true;
+    $_SESSION['user_type'] = $username;
     header('Location: ./index.php');
 } else {
     header('Location: ./login_error.php');

@@ -23,7 +23,7 @@
             $today = new DateTime('now');
             ?>
 
-		<p>&copy; Copyright <?php echo $today->format('Y'); ?> by Benjamin Lamb</p>
+		<p>&copy Copyright <?php echo $today->format('Y'); ?> by Ben Lamb</p>
         <br>
 	</footer>
 </main>
